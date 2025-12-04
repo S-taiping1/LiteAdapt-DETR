@@ -30,5 +30,5 @@ pip install torch torchvision torchaudio
         /labels
 ```
 
-CCTSDB2021的百度网盘下载地址为https://pan.baidu.com/s/13ZjIKXoTIBD_0fJ1rdWSRA 提取码pu2p
+CCTSDB2021的百度网盘下载地址为https://pan.baidu.com/s/13ZjIKXoTIBD_0fJ1rdWSRA 提取码pu2p  
 TT100K下载地址为https://cg.cs.tsinghua.edu.cn/traffic-sign/
