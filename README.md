@@ -8,13 +8,16 @@
 🚀 性能优势 (Performance Highlights)我们在 CCTSDB 2021 和 TT100K 两个数据集上对 LiteAdapt-DETR 进行了综合评估，结果显示模型在轻量化和精度上均超越基准。
   * 结构和效率优化相较于原始 RT-DETR 模型，LiteAdapt-DETR 显著降低了计算资源需求：指标LiteAdapt-DETRRT-DETR 基准优化幅度参数量 (Params)降低约 32%运算量 (FLOPs)降低约 30%推理延迟 (Latency)降低约 12%  
   * 泛化精度提升LiteAdapt-DETR 在两个不同数据域上的 $\text{mAP@0.5}$ 均获得提升，证明了其结构的稳定性和跨域泛化能力。数据集LiteAdapt-DETR mAP@0.5相比 RT-DETR 提升CCTSDB 2021)+0.5% TT100K+0.6%  
+
+
 ⚙️ 快速开始 (Quick Start)重要说明： 本仓库仅包含 LiteAdapt-DETR 的三个核心改进模块（HSPNet, DL-DHSA, CSUB）的实现代码。用户需克隆原始 RT-DETR 仓库，并将本仓库提供的模块代码集成到相应位置，以构建完整的 LiteAdapt-DETR 模型。
 
 
-## 安装 PyTorch 
-pip install torch torchvision torchaudio
+1. 安装 PyTorch 
+```pip install torch torchvision torchaudio```
 
-2. 获取 RT-DETR 基准框架请克隆原始 RT-DETR 或其官方实现仓库：git clone [https://github.com/lyuwenyu/RT-DETR.git](https://github.com/xxxxx/RT-DETR.git)   
+2. 获取 RT-DETR 基准框架请克隆原始 RT-DETR 或其官方实现仓库：
+```git clone [https://github.com/lyuwenyu/RT-DETR.git](https://github.com/xxxxx/RT-DETR.git)```     
 ```cd RT-DETR```
 
 
